@@ -1,7 +1,7 @@
 public class Main {
 
   public static void main(String[] args) {
-    System.out.println("Hello vscode!!");
+    JavaStudy.LOGI("Hello vscode!!\n");
     JavaStudy javaStudy = new JavaStudy();
     javaStudy.study();
   }

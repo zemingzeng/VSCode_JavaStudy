@@ -1,9 +1,11 @@
 public class JavaStudy {
-    public void study() {
-        System.out.print("i am JavaStudy!!!!!");
+    public static void LOGI(String info) {
+        System.out.print(info + "\n");
     }
 
-    public <T> void template(T aT) {
+    public void study() {
+        LOGI("-------------20230310---------------------");
+        LOGI("i am JavaStudy!!!!!");
 
     }
 }
